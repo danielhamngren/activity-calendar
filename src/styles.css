@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+div#container {
+  width: 900px;
+  background-color: #444;
+}
+
+line#limit {
+  stroke: #fed966;
+  stroke-width: 3;
+  stroke-dasharray: 3 6;
+}
+
+.grid path {
+  stroke-width: 3;
+}
+
+.grid .tick line {
+  stroke: #9faaae;
+  stroke-opacity: 0.2;
+}
+
+svg {
+  width: 900px;
+  height: 150px;
+}
+
+#content {
+  width: 400px;
+}
